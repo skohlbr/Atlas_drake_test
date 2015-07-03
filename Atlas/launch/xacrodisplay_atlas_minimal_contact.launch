@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <include file="$(find Atlas)/launch/xacrodisplay_common.launch">
+    <arg name="robot_description" value="$(find Atlas)/atlas_minimal_contact.urdf"/>  
+  </include>  
+  
+</launch>
